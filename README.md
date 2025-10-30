@@ -1,0 +1,1 @@
+Experimenting with implementing a bootloader for nRF51 (emulated by QEMU). Following along with the ["From zero to main" blog series by Memfault](https://interrupt.memfault.com/tag/zero-to-main/).
