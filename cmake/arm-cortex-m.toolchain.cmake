@@ -1,0 +1,14 @@
+set(CMAKE_SYSTEM_NAME "Generic-ELF")
+
+set(CMAKE_SYSTEM_PROCESSOR "arm")
+set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
+
+set(_PREFIX "$ENV{ARM_TOOLS_PREFIX}/arm-none-eabi")
+set(CMAKE_C_COMPILER "${_PREFIX}-gcc")
+set(CMAKE_ASM_COMPILER "${CMAKE_C_COMPILER}")
+set(CMAKE_CXX_COMPILER "${_PREFIX}-g++")
+set(CMAKE_AR "${_PREFIX}-gcc-ar")
+set(CMAKE_RANLIB "${_PREFIX}-gcc-ranlib")
+
+set(CMAKE_OBJCOPY "${_PREFIX}-objcopy")
+set(CMAKE_SIZE_UTIL "${_PREFIX}-size")

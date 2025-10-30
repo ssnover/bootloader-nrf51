@@ -1,0 +1,8 @@
+{
+    "git.ignoreLimitWarning": true,
+    "files.associations": {
+        "nrf.h": "c",
+        "nrf51.h": "c",
+        "system_nrf51.h": "c"
+    }
+}
